@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  render: [index.qmd, proyecto.qmd, licencias.qmd]
+  resources:
+    - assets/portal.css
+    - .nojekyll
+  pre-render:
+    - python3 tools/catalog.py --generate
+  post-render:
+    - python3 tests/post_render.py
+quarto-required: =1.10.18
+lang: es
+brand:
+  light: _extensions/ustudyopen-design/brand/_brand.yml
+  dark: _extensions/ustudyopen-design/brand/_brand-dark.yml
+website:
+  title: UStudyOpen
+  description: Iniciativa educativa abierta e independiente. Explora nuestros cursos y sus estados académicos.
+  site-url: https://ustudyopen.github.io/
+  favicon: _extensions/ustudyopen-design/assets/favicon.svg
+  search: false
+  navbar:
+    title: UStudyOpen
+    pinned: true
+    background: light
+    collapse-below: lg
+    left:
+      - text: Cursos
+        href: index.qmd#cursos
+      - text: El proyecto
+        href: proyecto.qmd
+    right:
+      - text: GitHub
+        href: https://github.com/UStudyOpen
+  page-footer:
+    left: UStudyOpen · Educación abierta e independiente
+    right:
+      - text: Autoría y licencias
+        href: licencias.qmd
+format:
+  ustudyopen-design-html:
+    toc: false
+    page-layout: full
+    css: assets/portal.css
+    anchor-sections: false
+    html-math-method: plain
+    link-external-newwindow: false

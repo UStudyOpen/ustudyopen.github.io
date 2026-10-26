@@ -1,0 +1,16 @@
+{
+  "source": "UStudyOpen/ustudyopen-template",
+  "commit": "ff83f27b80f3487a6b286c62e0431f429933783b",
+  "license": "MIT",
+  "files": {
+    "tests/safe_paths.py": "9aaaf08f7767180c55d0c97df5976274e2b0c9963b2c90a44518b3caaa08d2aa",
+    "tests/legal_distribution.py": "14e2df9d31fdb52a345723f76408ab9476b8ecb409c156beadb9e1b151602391",
+    "tests/licensing.py": "4885c7df1b7a93c261e47cb52edcb361d05ba0cdb51521d4e4d2135503bd2ad9",
+    "tests/install_quarto.py": "65fb636e9f3c34940c1aefb9b494dff7c9b55b1fc7e30bfbc9660e475f6b9286",
+    "tests/post_render.py": "e1081778d6ad73798e172831f5f273e0c749530f0fd577ec6e9c57dc48580195",
+    "tests/requirements-licensing.txt": "de571875ff75ab3c200087a7e5bdc7f48f6a3738f018804556e3d2cebe7d5af7",
+    "tests/LICENSE-platform.txt": "86abf44f49e09c597fac4a1509d372d9796107e034567e61eba94af2116c18df",
+    "tests/action-pins.json": "4860ee09f04eccbe9838d1e6d82535c65cba1eb77effff72c0832bf32101dd00",
+    "tests/browser_client.mjs": "76d9ac9511424994565131206c5a473bf169618d1a9cf65c39046620b72139dd"
+  }
+}

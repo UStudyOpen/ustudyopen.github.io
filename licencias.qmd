@@ -1,0 +1,33 @@
+---
+title: Autoría y licencias
+---
+
+## Portal y sistema visual
+
+Copyright (c) 2026 ngulloa. El código, la estructura y la documentación del portal siguen la licencia MIT de la plantilla. La extensión UStudyOpen Design conserva su licencia MIT, procedencia y avisos de terceros, sin modificaciones.
+
+```{=html}
+<ul>
+<li><a href="legal/LICENSE">Texto completo de MIT</a></li>
+<li><a href="legal/LICENSING.md">Alcance de las licencias</a></li>
+<li><a href="legal/THIRD-PARTY-NOTICES.md">Avisos de terceros</a></li>
+<li><a href="legal/extension/PROVENANCE.md">Procedencia de la extensión</a></li>
+<li><a href="legal/index.txt">Índice completo de textos legales</a></li>
+</ul>
+```
+
+## Materiales de las asignaturas
+
+Los tres cursos declaran **CC-BY-NC-4.0** para sus contenidos originales autorizados y **ngulloa** como autor, con excepciones de terceros documentadas en sus propios avisos. El software y los componentes compartidos tienen su alcance específico. La licencia MIT del portal no cambia las licencias de los cursos ni concede derechos adicionales sobre obras ajenas.
+
+Consulta los avisos del sitio correspondiente antes de reutilizar sus materiales:
+
+- [Bases de Datos: licencias y avisos](https://ustudyopen.github.io/base-de-datos/legal/index.txt).
+- [Inteligencia Artificial: licencias y avisos](https://ustudyopen.github.io/inteligencia-artificial/legal/index.txt).
+- [Precálculo: licencias y avisos](https://ustudyopen.github.io/precalculo/legal/index.txt).
+
+## Accesibilidad
+
+WCAG 2.2 AA es el objetivo de accesibilidad. El portal utiliza estructura semántica, navegación por teclado, estados expresados con texto y temas claro y oscuro. Las pruebas automáticas ayudan a detectar problemas, pero no equivalen a una certificación de conformidad.
+
+Puedes comunicar problemas a través del [repositorio del portal](https://github.com/UStudyOpen/ustudyopen.github.io/issues).
