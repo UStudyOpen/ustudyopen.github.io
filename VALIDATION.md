@@ -23,10 +23,10 @@ se verifican con hashes; el navegador usa un perfil temporal y sandbox activo.
   contraste de dos flechas decorativas `aria-hidden` de la portada; se revisaron
   visualmente en ambos temas. Esto no es una certificación WCAG 2.2 AA.
 - Artefacto: sin fuentes QMD/Python, directorios privados, secretos, rutas de
-  la máquina ni repositorios de trabajo. Tamaño aproximado 1.9 MiB sin comprimir.
+  la máquina ni repositorios de trabajo. Tamaño aproximado 1.73 MiB sin comprimir.
 - Enlaces públicos del proyecto, plantilla, diseño, autor y avisos de las tres
-  asignaturas: HTTP 200. El enlace al repositorio nuevo del portal se activará
-  tras la autorización de creación; el dominio raíz se verificará tras desplegar.
+  asignaturas: HTTP 200. El repositorio público del portal ya existe; el dominio
+  raíz se verificará tras el primer despliegue autorizado.
 - Preservación: archivos, estado Git y HEAD de los tres cursos y del diseño
   comparados antes/después sin cambios. Los cambios previos en docs de BD siguen
   tal como estaban al inicio; no se renderizó ni modificó ningún curso.
@@ -37,7 +37,18 @@ El directorio hermano `review/portal-2026-10-26/` conserva logs y comparación d
 preservación. En GitHub, la evidencia de cada ejecución estará en su artefacto
 `validation-evidence` (siete días).
 
-El portal no tiene repositorio remoto, PR ni despliegue en esta fase local.
-Tras la autorización de creación, el PR debe volver a validar en GitHub Actions.
-La activación de Pages y la variable de publicación siguen pendientes de la
-revisión y autorización de la primera versión; véase PUBLISHING.md.
+Tras la autorización del titular, se creó el repositorio público y el
+[PR inicial #1](https://github.com/UStudyOpen/ustudyopen.github.io/pull/1).
+`main` conserva solo el README; el sitio permanece en la rama del PR.
+Los resultados de CI y las capturas se consultan en los checks y el artefacto
+`validation-evidence` del PR, sin publicar el portal.
+
+GitHub activó Pages automáticamente al crear el repositorio de organización e
+inició una compilación Jekyll. Se canceló antes de desplegar:
+[ejecución cancelada](https://github.com/UStudyOpen/ustudyopen.github.io/actions/runs/40409405027).
+La API rechazó desactivar Pages (HTTP 422); se cambió su fuente a GitHub Actions
+para impedir las compilaciones automáticas desde la rama. No hubo despliegues.
+`USO_PAGES_ENABLED=false` bloquea el workflow de publicación del portal y el
+entorno `github-pages` admite solo ramas protegidas. La protección de `main`
+exige PR y check `validate` de GitHub Actions. La primera publicación sigue
+pendiente de revisión y autorización expresa; véase PUBLISHING.md.

@@ -4,7 +4,13 @@
 
 La rama inicial del portal contiene todo el sitio; `main` comienza únicamente
 con el README para permitir un PR inicial revisable. No hacer merge ni activar
-Pages durante la preparación. No existe un primer despliegue autorizado.
+la variable de publicación durante la preparación. No existe un primer despliegue
+autorizado.
+
+GitHub activó Pages automáticamente para este repositorio de organización y
+rechazó desactivarlo por API. La compilación Jekyll inicial se canceló sin
+desplegar. La fuente quedó en **GitHub Actions** y `USO_PAGES_ENABLED=false`:
+ningún workflow del portal puede publicar hasta la autorización y el merge.
 
 ## Aprobar y publicar
 
@@ -13,7 +19,8 @@ Pages durante la preparación. No existe un primer despliegue autorizado.
    catálogo, textos, autoría y licencias. Resolver las conversaciones del PR.
 2. Autorizar expresamente el primer despliegue y verificar que `validate` esté
    verde para el último commit del PR y que la rama esté actualizada con `main`.
-3. En GitHub, Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+3. Confirmar en Settings → Pages → Build and deployment → Source: **GitHub Actions**
+   (ya configurada para impedir el despliegue automático mediante Jekyll).
    Para este sitio de organización la URL es https://ustudyopen.github.io/.
    No configurar un prefijo `/ustudyopen.github.io/`, dominio personalizado ni CNAME.
 4. Verificar Settings → Environments → `github-pages`: permitir despliegues solo
