@@ -1,0 +1,40 @@
+---
+pagetitle: "UStudyOpen · Un espacio abierto para aprender"
+description: "Cursos abiertos de computación y matemáticas. Una iniciativa educativa independiente, en construcción y con estados académicos transparentes."
+---
+
+```{=html}
+<section class="portal-hero" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow"><span class="identity-mark" aria-hidden="true">U</span> EDUCACIÓN ABIERTA · USTUDYOPEN</p>
+    <h1 id="hero-title">Un espacio abierto<br>para <span>aprender.</span></h1>
+    <p class="hero-description">Ideas que se explican. Conceptos que se exploran. Una iniciativa educativa independiente para estudiar computación y matemáticas a tu ritmo.</p>
+    <div class="uso-actions">
+      <a class="uso-button" href="#cursos">Explorar los cursos <span aria-hidden="true">↘</span></a>
+      <a class="hero-project-link" href="proyecto.html">Conocer el proyecto <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  <div class="hero-note" role="note" aria-label="Nuestra propuesta">
+    <p class="eyebrow">APRENDER CON SENTIDO</p>
+    <p class="note-title">De la curiosidad<br>a la comprensión.</p>
+    <div class="note-line"><span aria-hidden="true">01</span><span>Recorrer las ideas</span></div>
+    <div class="note-line"><span aria-hidden="true">02</span><span>Conectar los conceptos</span></div>
+    <div class="note-line"><span aria-hidden="true">03</span><span>Explorar con ejemplos</span></div>
+    <p class="note-foot">Materiales para estudiar, volver a consultar y seguir construyendo.</p>
+  </div>
+</section>
+<section class="catalog-section" aria-labelledby="cursos">
+  <div class="section-heading"><div><p class="eyebrow">ELIGE POR DÓNDE EMPEZAR</p><h2 id="cursos">Explora las asignaturas</h2></div><span class="section-caption">Computación y matemáticas</span></div>
+  <p class="catalog-intro">Cada curso tiene su propio sitio, recorrido y materiales. Aquí encuentras el punto de entrada.</p>
+```
+
+{{< include _catalog.qmd >}}
+
+```{=html}
+  <div class="catalog-notice"><span class="notice-symbol" aria-hidden="true">i</span><p><strong>Publicado no significa terminado.</strong> La disponibilidad técnica no acredita que un curso esté académicamente terminado. Consulta el estado de cada asignatura y de sus lecciones.</p></div>
+</section>
+<section class="project-strip" aria-labelledby="construir">
+  <div><p class="eyebrow">UN PROYECTO QUE SE CONSTRUYE</p><h2 id="construir">Compartir una base.<br>Abrir nuevos caminos.</h2><p>Una identidad común, asignaturas independientes y una plantilla para dar el siguiente paso.</p></div>
+  <div class="strip-actions"><a class="uso-button uso-button--secondary" href="https://github.com/UStudyOpen/ustudyopen-template">Crear una asignatura <span aria-hidden="true">↗</span></a><a href="proyecto.html">Cómo funciona UStudyOpen <span aria-hidden="true">→</span></a></div>
+</section>
+```

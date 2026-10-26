@@ -1,0 +1,10 @@
+{
+  "axe": {
+    "version": "4.14.0",
+    "url": "https://cdn.jsdelivr.net/npm/axe-core@4.14.0/axe.min.js",
+    "sha256": "20c09fe157a8a34a30e241aaa1fcdade657734f08ab379ecfbeb7d45cc46e878",
+    "license": "MPL-2.0",
+    "source": "https://github.com/dequelabs/axe-core",
+    "scope": "test tool downloaded into ignored artifacts; never distributed with portal"
+  }
+}

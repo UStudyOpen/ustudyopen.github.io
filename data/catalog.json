@@ -1,0 +1,415 @@
+{
+  "schema": 1,
+  "courses": [
+    {
+      "slug": "base-de-datos",
+      "name": "Bases de Datos",
+      "area": "Computación",
+      "summary": "Modelos relacionales, consultas SQL y las ideas que sostienen el diseño de una base de datos.",
+      "url": "https://ustudyopen.github.io/base-de-datos/",
+      "publication": "publicado",
+      "academic_status": "en-desarrollo",
+      "source": {
+        "repository": "UStudyOpen/base-de-datos",
+        "commit": "bf9f0af8071c6c1c7a1799762d342ac6c938b120",
+        "sha256": "cfdd33e3ee2e96cf0a5fe958d0f06a1f2859fc9ae5129949e540c4fa30c0aa2e",
+        "metadata": {
+          "name": "Bases de Datos",
+          "slug": "base-de-datos",
+          "status": "en-desarrollo",
+          "license": "CC-BY-NC-4.0",
+          "authorship": "ngulloa (contenido original autorizado; terceros según THIRD-PARTY-NOTICES.md)",
+          "pages": [
+            {
+              "path": "almacenamiento/buffer-manager.qmd",
+              "title": "Buffer Manager: FIFO y LRU",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "almacenamiento/paginas-registros.qmd",
+              "title": "Almacenamiento: páginas y registros",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "diseno/bcnf.qmd",
+              "title": "Forma normal de Boyce–Codd (BCNF)",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "diseno/dependencias-llaves.qmd",
+              "title": "Redundancia, dependencias funcionales y llaves",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "diseno/descomposiciones.qmd",
+              "title": "Descomposiciones y pérdida de información",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "diseno/implicacion-clausura.qmd",
+              "title": "Razonamiento con dependencias: implicación y clausura",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "diseno/tercera-forma-normal.qmd",
+              "title": "Tercera forma normal: cubierta minimal y síntesis",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/modelo-relacional.qmd",
+              "title": "Modelo relacional: tuplas, relaciones, esquemas y bases de datos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/relaciones-nombradas.qmd",
+              "title": "Atributos y relaciones nombradas",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/sistemas-rdbms.qmd",
+              "title": "Sistemas de bases de datos y RDBMS",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "index.qmd",
+              "title": "Bases de Datos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "indices/bplus.qmd",
+              "title": "Árboles B+: estructura, búsqueda y actualización",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "indices/hashing.qmd",
+              "title": "Hashing estático y extensible",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "nulos/informacion-incompleta.qmd",
+              "title": "Información incompleta y mundos posibles",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "nulos/null-tres-valores.qmd",
+              "title": "NULL y lógica de tres valores",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "nulos/outer-joins.qmd",
+              "title": "Outer joins",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "procesamiento/planes-logicos.qmd",
+              "title": "Planes lógicos y procesamiento de consultas",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "procesamiento/reescritura.qmd",
+              "title": "Reescritura y equivalencia de consultas",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "sql/agregacion.qmd",
+              "title": "Agregación, GROUP BY y HAVING",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "sql/consultas-basicas.qmd",
+              "title": "Consultas SQL: SELECT-FROM-WHERE, joins y conjuntos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "sql/ddl-dml.qmd",
+              "title": "SQL y manipulación de datos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "sql/funciones-filtros.qmd",
+              "title": "Funciones, filtros, orden y dialectos SQL",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "sql/subconsultas.qmd",
+              "title": "Subconsultas",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "teoria-consultas/algebra-relacional.qmd",
+              "title": "Álgebra relacional",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "teoria-consultas/equivalencia-patrones.qmd",
+              "title": "Equivalencia y patrones de consulta",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "teoria-consultas/joins-operadores.qmd",
+              "title": "Joins, producto cartesiano y operadores derivados",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "teoria-consultas/logica-primer-orden.qmd",
+              "title": "Lógica de primer orden y consultas",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            }
+          ],
+          "planned": []
+        }
+      }
+    },
+    {
+      "slug": "inteligencia-artificial",
+      "name": "Inteligencia Artificial I",
+      "area": "Computación",
+      "summary": "Representación, aprendizaje y evaluación para comprender cómo se construyen los modelos.",
+      "url": "https://ustudyopen.github.io/inteligencia-artificial/",
+      "publication": "publicado",
+      "academic_status": "en-desarrollo",
+      "source": {
+        "repository": "UStudyOpen/inteligencia-artificial",
+        "commit": "08076a100a02b296a4bd8c7a8020da078d7b1259",
+        "sha256": "73c61a629c343fb2a479464db50d4a0582c660774c69aa28e2bf4568b98d187a",
+        "metadata": {
+          "name": "Inteligencia Artificial I",
+          "slug": "inteligencia-artificial",
+          "status": "en-desarrollo",
+          "license": "CC-BY-NC-4.0",
+          "authorship": "ngulloa (contenido original autorizado; terceros según THIRD-PARTY-NOTICES.md)",
+          "pages": [
+            {
+              "path": "datos/generalizacion.qmd",
+              "title": "Generalización y selección de modelos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "datos/representacion.qmd",
+              "title": "Representación de datos",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/evaluacion-clasificadores.qmd",
+              "title": "Evaluación de clasificadores",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/ia-aprendizaje.qmd",
+              "title": "Inteligencia artificial y aprendizaje de máquina",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "fundamentos/sistema-ml.qmd",
+              "title": "Anatomía de un sistema de aprendizaje de máquina",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "index.qmd",
+              "title": "Inteligencia Artificial I",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "refuerzo/fundamentos.qmd",
+              "title": "Fundamentos de aprendizaje por refuerzo",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "supervisado/arboles-decision.qmd",
+              "title": "Árboles de decisión",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "supervisado/svm-kernels.qmd",
+              "title": "Kernels y fronteras no lineales",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "supervisado/svm-margen.qmd",
+              "title": "Máquinas de vectores de soporte y máximo margen",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "supervisado/svm-multiclase.qmd",
+              "title": "SVM multiclase y Exemplar-SVM",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            }
+          ],
+          "planned": [
+            {
+              "title": "Aprendizaje profundo",
+              "status": "proximamente",
+              "required": false
+            },
+            {
+              "title": "Programación lógica",
+              "status": "proximamente",
+              "required": false
+            },
+            {
+              "title": "Búsqueda",
+              "status": "proximamente",
+              "required": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "slug": "precalculo",
+      "name": "Precálculo",
+      "area": "Matemáticas",
+      "summary": "Álgebra, trigonometría y geometría analítica para construir una base matemática.",
+      "url": "https://ustudyopen.github.io/precalculo/",
+      "publication": "publicado",
+      "academic_status": "en-desarrollo",
+      "source": {
+        "repository": "UStudyOpen/precalculo",
+        "commit": "fd00e146bd5bfcd62399d55073559f4f1f7be91e",
+        "sha256": "cb48bf0f415c491c5fd2f9afebb511283c7d8ad8e37ed1ef7ed22df0b6788546",
+        "metadata": {
+          "name": "Precálculo",
+          "slug": "precalculo",
+          "status": "en-desarrollo",
+          "license": "CC-BY-NC-4.0",
+          "authorship": "ngulloa (contenido original autorizado; terceros según THIRD-PARTY-NOTICES.md)",
+          "pages": [
+            {
+              "path": "index.qmd",
+              "title": "Precálculo",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/circunferencia.qmd",
+              "title": "Circunferencia",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/funciones-lineales-recta.qmd",
+              "title": "Funciones lineales y ecuación de la recta",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/induccion.qmd",
+              "title": "Inducción matemática",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/parabola.qmd",
+              "title": "Parábola",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/sucesiones-sumatorias.qmd",
+              "title": "Sucesiones y sumatorias",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/teorema-binomio.qmd",
+              "title": "Teorema del Binomio",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "temas/trigonometria.qmd",
+              "title": "Trigonometría",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            }
+          ],
+          "planned": []
+        }
+      }
+    }
+  ]
+}

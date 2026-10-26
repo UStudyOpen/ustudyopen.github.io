@@ -1,0 +1,13 @@
+/_site/
+/.quarto/
+/artifacts/
+/_catalog.qmd
+/node_modules/
+/.venv/
+__pycache__/
+.env
+.env.*
+*.pem
+*.key
+
+**/*.quarto_ipynb

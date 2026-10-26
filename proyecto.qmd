@@ -1,0 +1,33 @@
+---
+title: El proyecto
+description: Una iniciativa educativa abierta e independiente.
+---
+
+## Aprender, explorar y compartir
+
+UStudyOpen reúne materiales de estudio de computación y matemáticas en sitios de asignaturas independientes. Su propósito es facilitar el acceso a explicaciones, ejemplos y actividades, con una navegación y una identidad visual comunes.
+
+Es una iniciativa educativa abierta e independiente. No representa a una universidad ni ofrece acreditación académica. El acceso público a los sitios no implica que todo su contenido haya sido terminado o revisado.
+
+## Estados transparentes
+
+**Sitio publicado** describe la disponibilidad técnica. **En desarrollo** describe el estado académico: el contenido y su revisión siguen pendientes. Cada asignatura y cada lección declaran su estado; las pruebas automáticas comprueban funcionamiento y coherencia, pero no sustituyen una revisión académica humana.
+
+El catálogo mantiene una copia de metadatos vinculada a commits de los cursos. Las actualizaciones se revisan mediante Pull Request, sin consultas a GitHub durante una visita al portal.
+
+## Crear una nueva asignatura
+
+La [plantilla UStudyOpen](https://github.com/UStudyOpen/ustudyopen-template) permite iniciar un repositorio independiente con Quarto y la extensión compartida.
+
+1. Seleccionar **Use this template → Create a new repository** en GitHub.
+2. Completar nombre, objetivos, autoría, licencias y estados en `course.yml` y personalizar navegación y materiales siguiendo su README.
+3. Validar el sitio, revisar el contenido y autorizar su publicación desde el nuevo repositorio.
+4. Proponer la incorporación al catálogo de este portal mediante un Pull Request. La guía técnica del repositorio explica cómo importar los metadatos en un solo archivo.
+
+## Autoría y colaboración
+
+Autoría original y mantenimiento: [ngulloa](https://github.com/ngulloa). El sistema visual compartido es [UStudyOpen Design](https://github.com/UStudyOpen/ustudyopen-design).
+
+Puedes consultar los repositorios y proponer correcciones en la [organización UStudyOpen en GitHub](https://github.com/UStudyOpen). Antes de reutilizar materiales, revisa [autoría, atribución y licencias](licencias.qmd).
+
+[Volver al catálogo](index.qmd#cursos){.uso-button}

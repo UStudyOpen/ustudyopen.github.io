@@ -1,0 +1,52 @@
+{
+  "policy_schema": 1,
+  "groups": [
+    {
+      "paths": [
+        "*.md",
+        "*.qmd",
+        "_quarto.yml",
+        ".gitignore",
+        ".quartoignore",
+        ".nojekyll",
+        "tools/**",
+        "tests/**",
+        ".github/**",
+        "assets/**",
+        "data/**",
+        "LICENSE"
+      ],
+      "license": "MIT",
+      "copyright": "2026 ngulloa"
+    },
+    {
+      "paths": [
+        "_extensions/ustudyopen-design/_extension.yml",
+        "_extensions/ustudyopen-design/PROVENANCE.md",
+        "_extensions/ustudyopen-design/LICENSING.md",
+        "_extensions/ustudyopen-design/THIRD-PARTY-NOTICES.md",
+        "_extensions/ustudyopen-design/brand/_brand-dark.yml",
+        "_extensions/ustudyopen-design/brand/_brand.yml",
+        "_extensions/ustudyopen-design/scss/uso.scss",
+        "_extensions/ustudyopen-design/scss/_base.scss",
+        "_extensions/ustudyopen-design/scss/_layout.scss",
+        "_extensions/ustudyopen-design/scss/_components.scss",
+        "_extensions/ustudyopen-design/scss/_callouts.scss",
+        "_extensions/ustudyopen-design/scss/_academic.scss",
+        "_extensions/ustudyopen-design/assets/after-body.html",
+        "_extensions/ustudyopen-design/assets/favicon.svg",
+        "_extensions/ustudyopen-design/filters/status.lua",
+        "_extensions/ustudyopen-design/REUSE.toml"
+      ],
+      "license": "MIT",
+      "copyright": "2026 ngulloa"
+    }
+  ],
+  "third_party": [],
+  "legacy_review": {},
+  "import_paths": [
+    "assets/vendor/**",
+    "vendor/**",
+    "third_party/**"
+  ]
+}
