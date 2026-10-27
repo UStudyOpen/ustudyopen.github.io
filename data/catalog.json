@@ -410,6 +410,93 @@
           "planned": []
         }
       }
+    },
+    {
+      "slug": "optimizacion",
+      "name": "Optimización",
+      "area": "Matemáticas",
+      "summary": "Fundamentos de optimización matemática y programación lineal. Sección 05 disponible en desarrollo; otras siete lecciones próximamente.",
+      "url": "https://ustudyopen.github.io/optimizacion/",
+      "publication": "publicado",
+      "academic_status": "en-desarrollo",
+      "source": {
+        "repository": "UStudyOpen/optimizacion",
+        "commit": "73fd2dec35d7ccff6bb8a7bfac4fa24f0f3fc2d4",
+        "sha256": "a88e388241554e5c7036f132701120b1869bb720f9b2c33101e0d97939cbf582",
+        "metadata": {
+          "name": "Optimización",
+          "slug": "optimizacion",
+          "status": "en-desarrollo",
+          "license": "CC-BY-NC-4.0",
+          "authorship": "ngulloa",
+          "pages": [
+            {
+              "path": "index.qmd",
+              "title": "Optimización",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/01-problemas-optimizacion.qmd",
+              "title": "Lección 1: Problemas de optimización y existencia de soluciones",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/02-convexidad.qmd",
+              "title": "Lección 2: Convexidad, optimalidad global y unicidad",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/03-modelos-equivalentes.qmd",
+              "title": "Lección 3: Modelos equivalentes y variables auxiliares",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/04-poliedros.qmd",
+              "title": "Lección 4: Poliedros, vértices y soluciones óptimas",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/05-fundamentos-simplex.qmd",
+              "title": "Lección 5: Fundamentos algebraicos del Simplex",
+              "required": true,
+              "status": "en-desarrollo",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/06-simplex-fase-i.qmd",
+              "title": "Lección 6: Simplex — Fase I",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/07-simplex-fase-ii.qmd",
+              "title": "Lección 7: Simplex — Fase II",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            },
+            {
+              "path": "lecciones/08-casos-especiales.qmd",
+              "title": "Lección 8: Soluciones múltiples, degeneración y ciclos",
+              "required": true,
+              "status": "proximamente",
+              "reviewed": false
+            }
+          ],
+          "planned": []
+        }
+      }
     }
   ]
 }
